@@ -1,0 +1,463 @@
+# Design: Design Lab4 already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -O3 -e 100 -work Lab4 -2002  $dsn/src/add_round_key.vhd $dsn/src/hw_simple_aes.bde $dsn/src/hw_simple_aes_tb.vhd $dsn/src/inv_mix_columns.vhd $dsn/src/inv_mul_col.vhd $dsn/src/inv_sbox4.vhd $dsn/src/inv_sub_nibbles.vhd $dsn/src/mix_columns.vhd $dsn/src/mul_2.vhd $dsn/src/mul_4.vhd $dsn/src/mul_9.vhd $dsn/src/mul_col.vhd $dsn/src/rot_word.vhd $dsn/src/sbox4.vhd $dsn/src/shift_rows.vhd $dsn/src/state_mux.vhd $dsn/src/sub_nibbles.vhd $dsn/src/sub_word.vhd $dsn/src/xor2_8.vhd
+# DRC: Checking file "c:/my_designs/Lab4_Habrukh/Lab4/src/hw_simple_aes.bde".
+# DRC: Warning: hw_simple_aes.bde - 0 error(s), 14 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\my_designs\Lab4_Habrukh\Lab4\compile\hw_simple_aes.vhd from c:\my_designs\Lab4_Habrukh\Lab4\src\hw_simple_aes.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/add_round_key.vhd
+# Compile Entity "add_round_key"
+# Compile Architecture "add_round_key_arch" of Entity "add_round_key"
+# File: ./../compile/hw_simple_aes.vhd
+# Compile Entity "hw_simple_aes"
+# Compile Architecture "hw_simple_aes_arch" of Entity "hw_simple_aes"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/hw_simple_aes_tb.vhd
+# Compile Entity "hw_simple_aes_tb"
+# Compile Architecture "hw_simple_aes_tb_arch" of Entity "hw_simple_aes_tb"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/inv_mix_columns.vhd
+# Compile Entity "inv_mix_columns"
+# Compile Architecture "inv_mix_columns_arch" of Entity "inv_mix_columns"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/inv_mul_col.vhd
+# Compile Entity "inv_mul_col"
+# Compile Architecture "inv_mul_col_arch" of Entity "inv_mul_col"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/inv_sbox4.vhd
+# Compile Entity "inv_sbox4"
+# Compile Architecture "inv_sbox4_arch" of Entity "inv_sbox4"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/inv_sub_nibbles.vhd
+# Compile Entity "inv_sub_nibbles"
+# Compile Architecture "inv_sub_nibbles_arch" of Entity "inv_sub_nibbles"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/mix_columns.vhd
+# Compile Entity "mix_columns"
+# Compile Architecture "mix_columns_arch" of Entity "mix_columns"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/mul_2.vhd
+# Compile Entity "mul_2"
+# Compile Architecture "mul_2_arch" of Entity "mul_2"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/mul_4.vhd
+# Compile Entity "mul_4"
+# Compile Architecture "mul_4_arch" of Entity "mul_4"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/mul_9.vhd
+# Compile Entity "mul_9"
+# Compile Architecture "mul_9_arch" of Entity "mul_9"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/mul_col.vhd
+# Compile Entity "mul_col"
+# Compile Architecture "mul_col_arch" of Entity "mul_col"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/rot_word.vhd
+# Compile Entity "rot_word"
+# Compile Architecture "rot_word_arch" of Entity "rot_word"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/sbox4.vhd
+# Compile Entity "sbox4"
+# Compile Architecture "sbox4_arch" of Entity "sbox4"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/shift_rows.vhd
+# Compile Entity "shift_rows"
+# Compile Architecture "shift_rows_arch" of Entity "shift_rows"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/state_mux.vhd
+# Compile Entity "state_mux"
+# Compile Architecture "state_mux_arch" of Entity "state_mux"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/sub_nibbles.vhd
+# Compile Entity "sub_nibbles"
+# Compile Architecture "sub_nibbles_arch" of Entity "sub_nibbles"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/sub_word.vhd
+# Compile Entity "sub_word"
+# Compile Architecture "sub_word_arch" of Entity "sub_word"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/xor2_8.vhd
+# Compile Entity "xor2_8"
+# Compile Architecture "xor2_8_arch" of Entity "xor2_8"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => hw_simple_aes_tb
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/inv_mul_col.vhd
+# Compile Architecture "inv_mul_col_arch" of Entity "inv_mul_col"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/inv_mix_columns.vhd
+# Compile Architecture "inv_mix_columns_arch" of Entity "inv_mix_columns"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/mix_columns.vhd
+# Compile Architecture "mix_columns_arch" of Entity "mix_columns"
+# File: ./../compile/hw_simple_aes.vhd
+# Compile Architecture "hw_simple_aes_arch" of Entity "hw_simple_aes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+acom -O3 -e 100 -work Lab4 -2002  $dsn/src/state_mux.vhd $dsn/src/xor2_8.vhd $dsn/src/sbox4.vhd $dsn/src/shift_rows.vhd $dsn/src/rot_word.vhd $dsn/src/mul_4.vhd $dsn/src/mul_9.vhd $dsn/src/mul_2.vhd $dsn/src/inv_sbox4.vhd $dsn/src/add_round_key.vhd $dsn/src/inv_mul_col.vhd $dsn/src/inv_sub_nibbles.vhd $dsn/src/inv_mix_columns.vhd $dsn/src/sub_nibbles.vhd $dsn/src/sub_word.vhd $dsn/src/mul_col.vhd $dsn/src/mix_columns.vhd $dsn/src/hw_simple_aes_tb.vhd $dsn/src/hw_simple_aes.bde
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/state_mux.vhd
+# Compile Entity "state_mux"
+# Compile Architecture "state_mux_arch" of Entity "state_mux"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/xor2_8.vhd
+# Compile Entity "xor2_8"
+# Compile Architecture "xor2_8_arch" of Entity "xor2_8"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/sbox4.vhd
+# Compile Entity "sbox4"
+# Compile Architecture "sbox4_arch" of Entity "sbox4"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/shift_rows.vhd
+# Compile Entity "shift_rows"
+# Compile Architecture "shift_rows_arch" of Entity "shift_rows"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/rot_word.vhd
+# Compile Entity "rot_word"
+# Compile Architecture "rot_word_arch" of Entity "rot_word"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/mul_4.vhd
+# Compile Entity "mul_4"
+# Compile Architecture "mul_4_arch" of Entity "mul_4"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/mul_9.vhd
+# Compile Entity "mul_9"
+# Compile Architecture "mul_9_arch" of Entity "mul_9"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/mul_2.vhd
+# Compile Entity "mul_2"
+# Compile Architecture "mul_2_arch" of Entity "mul_2"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/inv_sbox4.vhd
+# Compile Entity "inv_sbox4"
+# Compile Architecture "inv_sbox4_arch" of Entity "inv_sbox4"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/add_round_key.vhd
+# Compile Entity "add_round_key"
+# Compile Architecture "add_round_key_arch" of Entity "add_round_key"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/inv_mul_col.vhd
+# Compile Entity "inv_mul_col"
+# Compile Architecture "inv_mul_col_arch" of Entity "inv_mul_col"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/inv_sub_nibbles.vhd
+# Compile Entity "inv_sub_nibbles"
+# Compile Architecture "inv_sub_nibbles_arch" of Entity "inv_sub_nibbles"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/inv_mix_columns.vhd
+# Compile Entity "inv_mix_columns"
+# Compile Architecture "inv_mix_columns_arch" of Entity "inv_mix_columns"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/sub_nibbles.vhd
+# Compile Entity "sub_nibbles"
+# Compile Architecture "sub_nibbles_arch" of Entity "sub_nibbles"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/sub_word.vhd
+# Compile Entity "sub_word"
+# Compile Architecture "sub_word_arch" of Entity "sub_word"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/mul_col.vhd
+# Compile Entity "mul_col"
+# Compile Architecture "mul_col_arch" of Entity "mul_col"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/mix_columns.vhd
+# Compile Entity "mix_columns"
+# Compile Architecture "mix_columns_arch" of Entity "mix_columns"
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/hw_simple_aes_tb.vhd
+# Compile Entity "hw_simple_aes_tb"
+# Compile Architecture "hw_simple_aes_tb_arch" of Entity "hw_simple_aes_tb"
+# File: ./../compile/hw_simple_aes.vhd
+# Compile Entity "hw_simple_aes"
+# Compile Architecture "hw_simple_aes_arch" of Entity "hw_simple_aes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.6 [s]
+# # simple-AES testbench run
+SetActiveLib -work
+# # compile mix_columns components
+comp -include "$dsn/src/mul_2.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/mul_2.vhd
+# Compile Entity "mul_2"
+# Compile Architecture "mul_2_arch" of Entity "mul_2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn/src/mul_4.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/mul_4.vhd
+# Compile Entity "mul_4"
+# Compile Architecture "mul_4_arch" of Entity "mul_4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn/src/mul_9.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/mul_9.vhd
+# Compile Entity "mul_9"
+# Compile Architecture "mul_9_arch" of Entity "mul_9"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn/src/mul_col.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/mul_col.vhd
+# Compile Entity "mul_col"
+# Compile Architecture "mul_col_arch" of Entity "mul_col"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+comp -include "$dsn/src/inv_mul_col.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/inv_mul_col.vhd
+# Compile Entity "inv_mul_col"
+# Compile Architecture "inv_mul_col_arch" of Entity "inv_mul_col"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn/src/mix_columns.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/mix_columns.vhd
+# Compile Entity "mix_columns"
+# Compile Architecture "mix_columns_arch" of Entity "mix_columns"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn/src/inv_mix_columns.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/inv_mix_columns.vhd
+# Compile Entity "inv_mix_columns"
+# Compile Architecture "inv_mix_columns_arch" of Entity "inv_mix_columns"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# # compile sub_nibbles components
+comp -include "$dsn/src/sbox4.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/sbox4.vhd
+# Compile Entity "sbox4"
+# Compile Architecture "sbox4_arch" of Entity "sbox4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn/src/inv_sbox4.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/inv_sbox4.vhd
+# Compile Entity "inv_sbox4"
+# Compile Architecture "inv_sbox4_arch" of Entity "inv_sbox4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn/src/sub_nibbles.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/sub_nibbles.vhd
+# Compile Entity "sub_nibbles"
+# Compile Architecture "sub_nibbles_arch" of Entity "sub_nibbles"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn/src/inv_sub_nibbles.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/inv_sub_nibbles.vhd
+# Compile Entity "inv_sub_nibbles"
+# Compile Architecture "inv_sub_nibbles_arch" of Entity "inv_sub_nibbles"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# # compile round components
+comp -include "$dsn/src/shift_rows.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/shift_rows.vhd
+# Compile Entity "shift_rows"
+# Compile Architecture "shift_rows_arch" of Entity "shift_rows"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn/src/add_round_key.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/add_round_key.vhd
+# Compile Entity "add_round_key"
+# Compile Architecture "add_round_key_arch" of Entity "add_round_key"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn/src/state_mux.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/state_mux.vhd
+# Compile Entity "state_mux"
+# Compile Architecture "state_mux_arch" of Entity "state_mux"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# # compile key expansion part
+comp -include "$dsn/src/rot_word.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/rot_word.vhd
+# Compile Entity "rot_word"
+# Compile Architecture "rot_word_arch" of Entity "rot_word"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn/src/sub_word.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/sub_word.vhd
+# Compile Entity "sub_word"
+# Compile Architecture "sub_word_arch" of Entity "sub_word"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+comp -include "$dsn/src/xor2_8.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/xor2_8.vhd
+# Compile Entity "xor2_8"
+# Compile Architecture "xor2_8_arch" of Entity "xor2_8"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+# # compile main cipher components
+comp -include "$dsn/src/hw_simple_aes.bde"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/hw_simple_aes.vhd
+# Compile Entity "hw_simple_aes"
+# Compile Architecture "hw_simple_aes_arch" of Entity "hw_simple_aes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# # compile testbench
+comp -include "$dsn/src/hw_simple_aes_tb.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/hw_simple_aes_tb.vhd
+# Compile Entity "hw_simple_aes_tb"
+# Compile Architecture "hw_simple_aes_tb_arch" of Entity "hw_simple_aes_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# # begin simulation
+asim +access +r hw_simple_aes_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6585 kB (elbread=428 elab2=6016 kernel=141 sdf=0)
+# KERNEL: ASDB file was created in location c:\my_designs\Lab4_Habrukh\Lab4\src\wave.asdb
+#  16:34, 1 декабря 2023 г.
+#  Simulation has been initialized
+wave 
+wave -noreg -binary input_msg
+wave -noreg -binary cipher_key
+wave -noreg cipher_mode
+wave -noreg -binary output_msg
+run 20 ns
+# VSIM: 4 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/my_designs/Lab4_Habrukh/Lab4/src/wave.asdb'.
+# KERNEL: stopped at time: 20 ns
+endsim
+# VSIM: Simulation has finished.
+# # simple-AES testbench run
+SetActiveLib -work
+# # compile mix_columns components
+comp -include "$dsn/src/mul_2.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/mul_2.vhd
+# Compile Entity "mul_2"
+# Compile Architecture "mul_2_arch" of Entity "mul_2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn/src/mul_4.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/mul_4.vhd
+# Compile Entity "mul_4"
+# Compile Architecture "mul_4_arch" of Entity "mul_4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+comp -include "$dsn/src/mul_9.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/mul_9.vhd
+# Compile Entity "mul_9"
+# Compile Architecture "mul_9_arch" of Entity "mul_9"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn/src/mul_col.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/mul_col.vhd
+# Compile Entity "mul_col"
+# Compile Architecture "mul_col_arch" of Entity "mul_col"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn/src/inv_mul_col.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/inv_mul_col.vhd
+# Compile Entity "inv_mul_col"
+# Compile Architecture "inv_mul_col_arch" of Entity "inv_mul_col"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn/src/mix_columns.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/mix_columns.vhd
+# Compile Entity "mix_columns"
+# Compile Architecture "mix_columns_arch" of Entity "mix_columns"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+comp -include "$dsn/src/inv_mix_columns.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/inv_mix_columns.vhd
+# Compile Entity "inv_mix_columns"
+# Compile Architecture "inv_mix_columns_arch" of Entity "inv_mix_columns"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# # compile sub_nibbles components
+comp -include "$dsn/src/sbox4.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/sbox4.vhd
+# Compile Entity "sbox4"
+# Compile Architecture "sbox4_arch" of Entity "sbox4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn/src/inv_sbox4.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/inv_sbox4.vhd
+# Compile Entity "inv_sbox4"
+# Compile Architecture "inv_sbox4_arch" of Entity "inv_sbox4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn/src/sub_nibbles.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/sub_nibbles.vhd
+# Compile Entity "sub_nibbles"
+# Compile Architecture "sub_nibbles_arch" of Entity "sub_nibbles"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+comp -include "$dsn/src/inv_sub_nibbles.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/inv_sub_nibbles.vhd
+# Compile Entity "inv_sub_nibbles"
+# Compile Architecture "inv_sub_nibbles_arch" of Entity "inv_sub_nibbles"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# # compile round components
+comp -include "$dsn/src/shift_rows.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/shift_rows.vhd
+# Compile Entity "shift_rows"
+# Compile Architecture "shift_rows_arch" of Entity "shift_rows"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn/src/add_round_key.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/add_round_key.vhd
+# Compile Entity "add_round_key"
+# Compile Architecture "add_round_key_arch" of Entity "add_round_key"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn/src/state_mux.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/state_mux.vhd
+# Compile Entity "state_mux"
+# Compile Architecture "state_mux_arch" of Entity "state_mux"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# # compile key expansion part
+comp -include "$dsn/src/rot_word.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/rot_word.vhd
+# Compile Entity "rot_word"
+# Compile Architecture "rot_word_arch" of Entity "rot_word"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+comp -include "$dsn/src/sub_word.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/sub_word.vhd
+# Compile Entity "sub_word"
+# Compile Architecture "sub_word_arch" of Entity "sub_word"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+comp -include "$dsn/src/xor2_8.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/xor2_8.vhd
+# Compile Entity "xor2_8"
+# Compile Architecture "xor2_8_arch" of Entity "xor2_8"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# # compile main cipher components
+comp -include "$dsn/src/hw_simple_aes.bde"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/hw_simple_aes.vhd
+# Compile Entity "hw_simple_aes"
+# Compile Architecture "hw_simple_aes_arch" of Entity "hw_simple_aes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+# # compile testbench
+comp -include "$dsn/src/hw_simple_aes_tb.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/my_designs/Lab4_Habrukh/Lab4/src/hw_simple_aes_tb.vhd
+# Compile Entity "hw_simple_aes_tb"
+# Compile Architecture "hw_simple_aes_tb_arch" of Entity "hw_simple_aes_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# # begin simulation
+asim +access +r hw_simple_aes_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6585 kB (elbread=428 elab2=6016 kernel=141 sdf=0)
+# KERNEL: ASDB file was created in location c:\my_designs\Lab4_Habrukh\Lab4\src\wave.asdb
+#  16:35, 1 декабря 2023 г.
+#  Simulation has been initialized
+wave 
+wave -noreg -binary input_msg
+wave -noreg -binary cipher_key
+wave -noreg cipher_mode
+wave -noreg -binary output_msg
+run 80 ns
+# VSIM: 4 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/my_designs/Lab4_Habrukh/Lab4/src/wave.asdb'.
+# KERNEL: stopped at time: 80 ns
+endsim
+# VSIM: Simulation has finished.
+# Waveform file 'untitled.awc' connected to 'c:/my_designs/Lab4_Habrukh/Lab4/src/untitled.asdb'.
+# Adding file c:\my_designs\Lab4_Habrukh\Lab4\src\untitled.asdb ... Done
+# Adding file c:\my_designs\Lab4_Habrukh\Lab4\src\untitled.awc ... Done

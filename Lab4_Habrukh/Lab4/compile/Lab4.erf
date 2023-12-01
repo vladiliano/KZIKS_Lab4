@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: c:/my_designs/Lab4_Habrukh/Lab4/src/hw_simple_aes_tb.vhd" 
+MESSAGE "Compile Entity "hw_simple_aes_tb"" 
+MESSAGE "Compile Architecture "hw_simple_aes_tb_arch" of Entity "hw_simple_aes_tb"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]" 

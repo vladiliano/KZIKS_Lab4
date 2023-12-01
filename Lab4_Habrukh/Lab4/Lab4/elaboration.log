@@ -1,0 +1,54 @@
+Active-HDL 13.0.376.8320 2023-12-01 16:35:27
+
+Elaboration top modules:
+Architecture                  hw_simple_aes_tb_arch(hw_simple_aes_tb)
+
+
+------------------------------------------------------------------------------------------------------------
+Entity           | Architecture          | Library | Info | Compiler Version          | Compilation Options
+------------------------------------------------------------------------------------------------------------
+hw_simple_aes_tb | hw_simple_aes_tb_arch | Lab4    |      | 13.0.376.8320 (Windows64) | -O3
+hw_simple_aes    | hw_simple_aes_arch    | Lab4    |      | 13.0.376.8320 (Windows64) | -O3
+add_round_key    | add_round_key_arch    | Lab4    |      | 13.0.376.8320 (Windows64) | -O3
+shift_rows       | shift_rows_arch       | Lab4    |      | 13.0.376.8320 (Windows64) | -O3
+inv_sub_nibbles  | inv_sub_nibbles_arch  | Lab4    |      | 13.0.376.8320 (Windows64) | -O3
+inv_mix_columns  | inv_mix_columns_arch  | Lab4    |      | 13.0.376.8320 (Windows64) | -O3
+rot_word         | rot_word_arch         | Lab4    |      | 13.0.376.8320 (Windows64) | -O3
+sub_nibbles      | sub_nibbles_arch      | Lab4    |      | 13.0.376.8320 (Windows64) | -O3
+sub_word         | sub_word_arch         | Lab4    |      | 13.0.376.8320 (Windows64) | -O3
+xor2_8           | xor2_8_arch           | Lab4    |      | 13.0.376.8320 (Windows64) | -O3
+mix_columns      | mix_columns_arch      | Lab4    |      | 13.0.376.8320 (Windows64) | -O3
+state_mux        | state_mux_arch        | Lab4    |      | 13.0.376.8320 (Windows64) | -O3
+inv_sbox4        | inv_sbox4_arch        | Lab4    |      | 13.0.376.8320 (Windows64) | -O3
+inv_mul_col      | inv_mul_col_arch      | Lab4    |      | 13.0.376.8320 (Windows64) | -O3
+mul_2            | mul_2_arch            | Lab4    |      | 13.0.376.8320 (Windows64) | -O3
+mul_9            | mul_9_arch            | Lab4    |      | 13.0.376.8320 (Windows64) | -O3
+sbox4            | sbox4_arch            | Lab4    |      | 13.0.376.8320 (Windows64) | -O3
+mul_col          | mul_col_arch          | Lab4    |      | 13.0.376.8320 (Windows64) | -O3
+mul_4            | mul_4_arch            | Lab4    |      | 13.0.376.8320 (Windows64) | -O3
+------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------
+VHDL Package                             | Library | Info | Compiler Version          | Compilation Options
+------------------------------------------------------------------------------------------------------------
+standard                                 | std     |      |                           | <unavailable>
+TEXTIO                                   | std     |      | 13.0.376.8320 (Windows64) |  -2019
+std_logic_1164                           | ieee    |      | 13.0.376.8320 (Windows64) |  -2008
+std_logic_arith                          | ieee    |      | 13.0.376.8320 (Windows64) | <unavailable>
+STD_LOGIC_SIGNED                         | ieee    |      | 13.0.376.8320 (Windows64) | <unavailable>
+STD_LOGIC_UNSIGNED                       | ieee    |      | 13.0.376.8320 (Windows64) | <unavailable>
+------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------
+Library                                  | Comment
+------------------------------------------------------------------------------------------------------------
+ieee                                     | Standard IEEE packages library
+Lab4                                     | None
+std                                      | Standard VHDL library
+------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access +r hw_simple_aes_tb
+
+
+The performance of simulation is reduced. Version Student Edition

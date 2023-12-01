@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+
+<!----------------------------------------------------------------------------->
+<!--                          BEGIN HTML HEAD                                -->
+<!--                                                                         -->
+
+<HEAD>
+<TITLE>DRC Report File - hw_simple_aes.bde</TITLE>
+<STYLE>
+* {font-family: sans-serif;}
+.Err	{color:#FF0000;cursor:hand;text-decoration:underline;}
+.Warn	{color:#0000FF;cursor:hand;text-decoration:underline;}
+.Info	{color:#000000;cursor:hand;text-decoration:underline;}
+.Sccss  {color:#009600;cursor:hand;text-decoration:underline;}
+.ErrH	{color:#FF0000;cursor:hand;text-decoration:underline;}
+.WarnH	{color:#0000FF;cursor:hand;text-decoration:underline;}
+.InfoH	{color:#000000;cursor:hand;text-decoration:underline;}
+.Err1	{color:#FF0000;}
+.Warn1	{color:#0000FF;}
+.Info1	{color:#000000;}
+.Sccss1 {color:#009600;}
+</STYLE>
+</HEAD>
+<BODY BGCOLOR="white" TEXT="black" LINK="blue" VLINK="purple" style="background-image:url(file:///E:/Flows/Res/default.bmp); background-repeat: repeat;">
+<tt>
+<!--                                                                         -->
+<!--                             END HEADER                                  -->
+<!----------------------------------------------------------------------------->
+
+<!----------------------------------------------------------------------------->
+<!--                            BEGIN VBSCRIPT                               -->
+<!--                                                                         -->
+<SCRIPT LANGUAGE=JSCRIPT>
+	function RollOn() {
+		switch(window.event.srcElement.className) {
+			case 'Err':
+				window.event.srcElement.className = 'ErrH'; break;
+			case 'Warn':
+				window.event.srcElement.className = 'WarnH'; break;
+			case 'Info':
+				window.event.srcElement.className = 'InfoH'; break;
+		}
+	}
+	function RollOff() {
+		switch(window.event.srcElement.className) {
+			case 'ErrH':
+				window.event.srcElement.className = 'Err'; break;
+			case 'WarnH':
+				window.event.srcElement.className = 'Warn'; break;
+			case 'InfoH':
+				window.event.srcElement.className = 'Info'; break;
+		}
+	}
+	function OnError(sMsg,sUrl,sLine) {
+		return true;
+	}
+	
+	document.onmouseover = RollOn;
+	document.onmouseout = RollOff;
+	window.onerror = OnError;
+</SCRIPT>
+
+<SCRIPT LANGUAGE=VBSCRIPT>
+
+Function IID_IDispatch
+	IID_IDispatch = "{00020400-0000-0000-C000-000000000046}"
+End Function
+
+Function CLSID_Executor
+	CLSID_Executor = "Aldec.ExePlugIn.Generic.7"
+End Function
+
+
+Sub OpenPlugIn (progid, template, document, element, string)
+
+	Dim executor, command
+
+	Set executor = window.external.aldec.connector.OpenPlugIn(CLSID_Executor, IID_IDispatch)
+
+	command = "?Activate[<"+progid+">][<"+template+">][<"+document+">][<"+element+">][<"+string+">]"
+
+	executor.ExecuteCommand command, ""
+
+End Sub
+
+
+</SCRIPT>
+<!--                                                                         -->
+<!--                             END VBSCRIPT                                -->
+<!----------------------------------------------------------------------------->
+
+<H2>DRC Report File - hw_simple_aes.bde</H2>
+
+Created on Fri 2023-12-01 at 16:13:47
+<hr style="height:2px;border-width:0;color:#008080;background-color:#008080">
+<SPAN class=Info1>Checking file &quot;c:/my_designs/Lab4_Habrukh/Lab4/src/hw_simple_aes.bde&quot;.</SPAN><BR>
+<SPAN class=Info1>
+	<p class = Warn1 style=font-weight:bold;margin-top:0px;margin-bottom:0px>Symbols without contents in library
+	</p><ul style=margin-left:30px;margin-top:0px;margin-bottom:0px>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:/my_designs/Lab4_Habrukh/Lab4/src/hw_simple_aes.bde','','-errorid=9,44,,65,,,159,,,,196,,,,,215');>	Symbol 'add_round_key' from library 'Lab4'</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:/my_designs/Lab4_Habrukh/Lab4/src/hw_simple_aes.bde','','-errorid=199');>	Symbol 'inv_mix_columns' from library 'Lab4'</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:/my_designs/Lab4_Habrukh/Lab4/src/hw_simple_aes.bde','','-errorid=193,205');>	Symbol 'inv_sub_nibbles' from library 'Lab4'</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:/my_designs/Lab4_Habrukh/Lab4/src/hw_simple_aes.bde','','-errorid=34');>	Symbol 'mix_columns' from library 'Lab4'</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:/my_designs/Lab4_Habrukh/Lab4/src/hw_simple_aes.bde','','-errorid=332,456');>	Symbol 'rot_word' from library 'Lab4'</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:/my_designs/Lab4_Habrukh/Lab4/src/hw_simple_aes.bde','','-errorid=27,62,,162,,,202');>	Symbol 'shift_rows' from library 'Lab4'</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:/my_designs/Lab4_Habrukh/Lab4/src/hw_simple_aes.bde','','-errorid=95');>	Symbol 'state_mux' from library 'Lab4'</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:/my_designs/Lab4_Habrukh/Lab4/src/hw_simple_aes.bde','','-errorid=12,59');>	Symbol 'sub_nibbles' from library 'Lab4'</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:/my_designs/Lab4_Habrukh/Lab4/src/hw_simple_aes.bde','','-errorid=335,459');>	Symbol 'sub_word' from library 'Lab4'</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:/my_designs/Lab4_Habrukh/Lab4/src/hw_simple_aes.bde','','-errorid=338,373,,429,,,462,,,,604,,,,,628');>	Symbol 'xor2_8' from library 'Lab4'</a></li></ul></SPAN><BR>
+<SPAN class=Info1>
+	<p class = Warn1 style=font-weight:bold;margin-top:0px;margin-bottom:0px>Nets connected to multiple sources
+	</p><ul style=margin-left:30px;margin-top:0px;margin-bottom:0px>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:/my_designs/Lab4_Habrukh/Lab4/src/hw_simple_aes.bde','','-errorid=324,485,,486,,,490,,,,496');>	'round_key1' bus signal</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:/my_designs/Lab4_Habrukh/Lab4/src/hw_simple_aes.bde','','-errorid=326,634,,638,,,666');>	'round_key2' bus signal</a></li></ul></SPAN><BR>
+<SPAN class=Info1>
+	<p class = Warn1 style=font-weight:bold;margin-top:0px;margin-bottom:0px>Nets without source
+	</p><ul style=margin-left:30px;margin-top:0px;margin-bottom:0px>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:/my_designs/Lab4_Habrukh/Lab4/src/hw_simple_aes.bde','','-errorid=668');>	'RCON0' bus signal</a></li>
+	<li ;text-align:left><a class = Warn onclick=OpenPlugin('Aldec.BDE.7','0','c:/my_designs/Lab4_Habrukh/Lab4/src/hw_simple_aes.bde','','-errorid=669');>	'RCON1' bus signal</a></li></ul></SPAN><BR>
+<SPAN class=Warn1>hw_simple_aes.bde - 0 error(s), 14 warning(s)</SPAN><BR>
+<SPAN class=Info1>DRC process completed in 1 second(s).</SPAN><BR>
+</tt>
+       
+        >
+</BODY>
+</HTML>
